@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Your Cart - Kylie Cosmetics</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container navwrap">
+    <div class="logo">KYLIE COSMETICS</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="active">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container cart-section">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <div class="cart-total"><strong>Total:</strong> $<span id="cart-total">0.00</span></div>
+  <button id="checkout-btn" class="btn primary">Checkout</button>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Kylie Cosmetics Fan Site — Designed for demo purposes.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

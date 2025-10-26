@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact - Kylie Cosmetics</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    .contact-form{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+    .contact-form label{font-weight:600}
+    .contact-form input,.contact-form textarea{padding:10px;border-radius:8px;border:1px solid #eee}
+    .contact-form button{align-self:flex-start}
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container navwrap">
+    <div class="logo">KYLIE COSMETICS</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container contact-section">
+  <h2>Contact Us</h2>
+  <form id="contact-form" class="contact-form">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Kylie Cosmetics Fan Site — Designed for demo purposes.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
